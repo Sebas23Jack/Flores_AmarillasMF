@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Amarillas MF</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            position: relative; /* Para posicionar el texto de forma absoluta */
+            font-family: 'Georgia', serif; /* Fuente romántica */
+            color: yellow; /* Color del texto */
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100vh; /* Ocupa toda la altura */
+        }
+        .overlay {
+            position: absolute;
+            top: 10%; /* Se coloca en la parte superior */
+            left: 50%;
+            transform: translateX(-50%); /* Centra el texto horizontalmente */
+            font-size: 3em; /* Tamaño del texto más grande */
+            text-align: center; /* Centra el texto */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra para un efecto romántico */
+            z-index: 1; /* Asegura que el texto esté encima del iframe */
+        }
+        .footer-text {
+            position: absolute;
+            bottom: 10%; /* Coloca el texto en la parte inferior */
+            left: 50%;
+            transform: translateX(-50%); /* Centra el texto horizontalmente */
+            font-size: 2em; /* Tamaño del texto */
+            text-align: center; /* Centra el texto */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra para un efecto romántico */
+            z-index: 1; /* Asegura que el texto esté encima del iframe */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="flores.html" allowfullscreen></iframe>
+    <div class="overlay">Te Quiero María</div>
+    <div class="footer-text">Con cariño, te ofrezco estas flores amarillas</div>
+</body>
+</html>
+
+
+
